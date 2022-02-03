@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
+
+    <div class="general">
+
+        <div class="flotador">
+            <img src="img/shark.jpg" class="pez" ondragstart="drag(event)" id="imagen1" alt="lifeguard" draggable="true"/>
+        </div>
+        <div class="espacio"></div>
+
+        <div class="charco" ondrop="drop(event)" ondragover="allowDrop(event)" id="contenedor1">
+   
+        </div>
+
+    </div>
     
     <script src="js/main.js"></script>
 </body>

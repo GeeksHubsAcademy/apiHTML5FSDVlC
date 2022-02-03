@@ -1,0 +1,20 @@
+
+.espacio {
+    height: 15em;
+    width: 100vw;
+}
+
+.pez {
+    z-index: 10;
+   
+}
+
+.charco {
+ 
+    background-image: url(../img/pool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   width: 40em;
+   height: 15em;
+}
